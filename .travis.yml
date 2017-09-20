@@ -7,5 +7,4 @@ script:
   - npm test
 
 notifications:
-  slack:
-    on_success: always
+  slack: ram-and-marcin:cgAaj3zabctiRvqkfB1kP28M
