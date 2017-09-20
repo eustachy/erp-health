@@ -1,8 +1,10 @@
 {
   "name": "erp-system",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
+    "update-deps": "npm update",
+    "prestart": "npm install",
     "start": "node ./bin/www"
   },
   "dependencies": {
